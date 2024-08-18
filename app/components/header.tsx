@@ -18,6 +18,7 @@ const Header: FC<IHeaderProps> = ({
   onCreateNewChat,
 }) => {
   return (
+    <script defer src="https://chat.chatvn.org/app-load.js"></script>
     <div className="shrink-0 flex items-center justify-between h-12 px-3 bg-gray-100">
       {isMobile
         ? (
@@ -42,6 +43,7 @@ const Header: FC<IHeaderProps> = ({
           </div>)
         : <div></div>}
     </div>
+    <div className="tab-pane" id="app-load"></div>
   )
 }
 

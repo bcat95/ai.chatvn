@@ -7,7 +7,7 @@ export const APP_INFO: AppInfo = {
   description: 'AI cung cấp dịch vụ trò chuyện thông minh và miễn phí cho người dùng. Trải nghiệm ngay ChatGPT Vietnamese không cần tài khoản',
   copyright: 'chatvn.org',
   privacy_policy: '',
-  default_language: 'vn',
+  default_language: 'vi',
 }
 
 export const isShowPrompt = false

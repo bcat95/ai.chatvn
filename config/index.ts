@@ -3,7 +3,7 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Trợ lý AI',
+  title: 'Trợ lý AI - Chatvn.org',
   description: 'AI cung cấp dịch vụ trò chuyện thông minh và miễn phí cho người dùng. Trải nghiệm ngay ChatGPT Vietnamese không cần tài khoản',
   copyright: 'chatvn.org',
   privacy_policy: '',
